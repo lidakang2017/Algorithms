@@ -20,7 +20,7 @@ public class MSD {
 	}
 
 	private static void sort(String[] a, int lo, int hi, int d) {
-		// 以第d个字符为键将a[lo]至a[hi]排序
+		// ???d??????????a[lo]??a[hi]????
 		if (hi <= lo + M) {
 			Insertion.sort(a, lo, hi, d);
 			return;

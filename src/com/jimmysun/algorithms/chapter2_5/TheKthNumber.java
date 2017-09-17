@@ -2,7 +2,7 @@ package com.jimmysun.algorithms.chapter2_5;
 
 import edu.princeton.cs.algs4.StdRandom;
 import com.jimmysun.algorithms.chapter2_1.BubbleSort;
-public class 第k小元素 {
+public class TheKthNumber {
 	public static Comparable select(Comparable[] a, int k) {
 		StdRandom.shuffle(a);
 		int low =0, hi = a.length-1;
